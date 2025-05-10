@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="WindowsApplication1.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="WindowsApplication1.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="cnnString" connectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=D:\Proyecto en VB\GLDebitos\GLDebitos\Database1.mdf;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+            </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <applicationSettings>
+        <WindowsApplication1.My.MySettings>
+            <setting name="gl" serializeAs="String">
+                <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+            </setting>
+        </WindowsApplication1.My.MySettings>
+    </applicationSettings>
+    <userSettings>
+        <WindowsApplication1.My.MySettings>
+            <setting name="glcolor" serializeAs="String">
+                <value>255, 255, 192</value>
+            </setting>
+        </WindowsApplication1.My.MySettings>
+    </userSettings>
+</configuration>
